@@ -15,9 +15,9 @@
 // Core typography
 // ------------------------------------------------------------
 
-p, span, cite, ol, ul, pre, label, input, textarea 	{ @include adjust-font-size-to($para); }
-ul 													{ @include nobullet; } 						
-ol 													{ @include nobullet; }	
-li 													{ line-height: inherit; }					
+p, span, cite, ol, ul, pre, label, input, textarea 	{ @include adjust-font-size-to($paragraph); }
+ul 													{ @include nobullet; }
+ol 													{ @include nobullet; }
+li 													{ line-height: inherit; }
 strong, b 											{ font-weight: 700; }
 em, i, q 											{ font-style: italic; }
