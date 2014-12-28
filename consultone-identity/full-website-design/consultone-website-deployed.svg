@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1367"
-   height="3827.4207"
+   height="2194.6716"
    id="svg3527"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.34269626"
-     inkscape:cx="1150.4262"
-     inkscape:cy="1633.665"
+     inkscape:cx="640.11762"
+     inkscape:cy="-501.94902"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -46,7 +46,7 @@
      inkscape:guide-bbox="true">
     <sodipodi:guide
        orientation="0,1"
-       position="2161.3728,2053.7386"
+       position="701.37281,422.98963"
        id="guide5092" />
   </sodipodi:namedview>
   <metadata
@@ -65,7 +65,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-1268.4232,-79.90013)">
+     transform="translate(-2728.4232,-81.900168)">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DINbek Light;-inkscape-font-specification:DINbek Light"
@@ -745,7 +745,7 @@
          style="font-size:22px;font-style:normal;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:'DINbek Light,'"
          id="tspan4622-5-6-1">solutions implemented in the past &gt;</tspan></text>
     <rect
-       style="color:#000000;fill:none;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3102-6"
        width="1366"
        height="644"
