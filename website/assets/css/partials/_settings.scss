@@ -21,7 +21,7 @@ $b-vp								: 420px;	// up one
 $c-vp								: 600px;	// up two
 $d-vp								: 900px;	// up three
 $e-vp								: 1100px;	// up four
-$f-vp								: 1300px;	// up five
+$f-vp								: 1350px;	// up five
 $ie-fixed-vp						: 980px;    // Viewport for IE fixed width
 
 $max-vp 							: $f-vp; 	// max viewport. Syntactically makes for a nicer option
@@ -62,9 +62,7 @@ $action-respond						: $al-green;
 // :: Typesizes/scale
 // ------------------------------------------------------------
 
-// Greek alphabet naming system. Obscure, yet hierarchical.
-// Allows us to avoid naming based on html object.
-// Eg. A h1 can be smaller visually, than a h4.
+
 
 $paragraph: 16px;
 
@@ -89,4 +87,4 @@ $internal-spacing					: 40px; 	// Space internally with fixed measure
 // ------------------------------------------------------------
 // Add functional stuff
 // ------------------------------------------------------------
-@import "functions/functions";
+@import "partials/functions";

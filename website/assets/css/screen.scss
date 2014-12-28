@@ -1,14 +1,17 @@
 // ::Imports pre-render. Must be after reset
 // ------------------------------------------------------------
-@import "libs/required";
-@import "libs/reset";
-@import "libs/settings";
-@import "libs/mixins";
-@import "libs/placeholders";
+@import "compass/typography/vertical_rhythm";
+@import "compass/css3";
+@import "compass/utilities";
+
+@import "partials/reset";
+@import "partials/settings";
+@import "partials/mixins";
 
 // Use SASS globbing to import all _.scss files in the module folder.
 // These should be independent modules that follow the BEM/SMACSS way
-@import "modules/*"; 
+
+//@import "modules/*";
 
 
 
@@ -36,19 +39,14 @@ a {
 	}
 }
 
-.logo-occupy {
-    background-color: #8b8989;
-    width: 50%;
-}
 
 /* ::Import styles */
 /* ------------------------------------------------------------ */
 
-@import "libs/typography"; 					// Base level typography
-@import "libs/forms";						// Forms
-@import "add-ons/module-typeset"; 			// Specific typesetting
-@import "add-ons/grid"; 					// Grid system
-
+@import "partials/typography";
+@import "partials/forms";
+@import "partials/module-typeset";
+@import "partials/grid";
 
 /* ::Print */
 /* ------------------------------------------------------------ */
