@@ -8,20 +8,15 @@
 @import "partials/settings";
 @import "partials/mixins";
 
-// Use SASS globbing to import all _.scss files in the module folder.
-// These should be independent modules that follow the BEM/SMACSS way
-
-//@import "modules/*";
-
-
+@import "partials/*";
 
 /* ::Base styles */
 /* ------------------------------------------------------------ */
 
 html {
 	font-size: 100%;
-	@include respond-to-max(768px, $IE9: false) { // Stop at precise width, as we're talking about devices
-		-webkit-text-size-adjust: 100%;	// Stops text scaling in iOS.
+	@include respond-to-max(768px, $IE9: false) {
+		-webkit-text-size-adjust: 100%;
 	}
 }
 
@@ -38,15 +33,6 @@ a {
 		color: $action-respond;
 	}
 }
-
-
-/* ::Import styles */
-/* ------------------------------------------------------------ */
-
-@import "partials/typography";
-@import "partials/forms";
-@import "partials/module-typeset";
-@import "partials/grid";
 
 /* ::Print */
 /* ------------------------------------------------------------ */

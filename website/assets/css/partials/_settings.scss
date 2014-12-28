@@ -36,26 +36,23 @@ $start-columns 						: $b-vp;
 
 
 // Define your main colour palette using whatever naming system you like
-$jack-black							: #333;
-$macy-grey							: #777;
-$ron-burgundy 						: #e0006e;
-$al-green 							: #67b2b1;
-$beige-ruth 						: #f5f0e0;
-$agent-orange 						: #c64f24;
-$betty-blue 						: #a8d9f4;
+
+$white: white;
+$ONE-logo-blue: rgb(0, 68, 170);
+$second-blue: rgb(2, 119, 189);
+$third-blue: rgb(100, 181, 246);
+
 
 
 // Assign colours to variable roles
 // Be descriptive without being specific.
 // This allows for consistency project to project, and easy changing
 
-$body-color 						: #fff;
-$base-color							: $macy-grey;
-$heading-color						: $jack-black;
-$hightlight-color 					: $betty-blue;
+$body-color: white;
+$base-color: $ONE-logo-blue;
 
-$action								: $agent-orange;
-$action-respond						: $al-green;
+$action								: $white;
+$action-respond						: $ONE-logo-blue;
 
 
 // ------------------------------------------------------------
@@ -64,7 +61,10 @@ $action-respond						: $al-green;
 
 
 
+h1 { @include adjust-font-size-to(48px)};
+h2 { @include adjust-font-size-to(22px)};
 $paragraph: 16px;
+
 
 
 
