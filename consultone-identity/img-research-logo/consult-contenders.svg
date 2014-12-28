@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2104.7244"
+   height="1488.189"
+   id="svg3624"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="consult-contenders.svg">
+  <defs
+     id="defs3626" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.78886719"
+     inkscape:cx="1080.5009"
+     inkscape:cy="717.107"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3629">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,435.82682)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2985-8-8-7-79"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic"
+       transform="matrix(2.8268701,0,0,2.8268701,480.85379,-669.73359)"><flowRegion
+         id="flowRegion2987-7-4-1-7"><rect
+           id="rect2989-4-0-4-01"
+           width="534.28571"
+           height="168.57143"
+           x="94.285713"
+           y="300.93362" /></flowRegion><flowPara
+         id="flowPara2991-3-5-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:-0.38999999px;font-family:DINbek Light;-inkscape-font-specification:DINbek Light">consul<flowSpan
+   style="letter-spacing:1.84000158px"
+   id="flowSpan4466-9">t</flowSpan><flowSpan
+   id="flowSpan4470-4"
+   style="letter-spacing:0.0399999px">|</flowSpan><flowSpan
+   style="font-family:DINbek Bold;-inkscape-font-specification:DINbek Bold"
+   id="flowSpan3684-4">one</flowSpan></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:160.34432983px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic"
+       x="189.03117"
+       y="1520.9503"
+       id="text4456-6-8"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan3536"
+         sodipodi:role="line"
+         x="189.03117"
+         y="1520.9503"
+         style="font-size:40.08608246px;font-family:DINbek Light;-inkscape-font-specification:DINbek Light">www.consultone.eu</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3164-2-4-8-65"
+       width="622.9762"
+       height="152.51913"
+       x="-1353.0552"
+       y="183.72282"
+       transform="scale(-1,1)" />
+  </g>
+</svg>
