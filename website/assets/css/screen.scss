@@ -53,7 +53,5 @@ a {
 
 @media print {
 	body {
-		@include adjust-leading-to(2);
-		font-size: percentage(10 / 16);
 	}
 }

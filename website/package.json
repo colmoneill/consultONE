@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/colmoneill/consultONE",
   "devDependencies": {
+    "browser-sync": "^1.8.2",
     "gulp": "^3.8.10",
     "gulp-compass": "^2.0.3",
     "gulp-concat": "^2.4.2",
