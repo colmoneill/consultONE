@@ -1,0 +1,24 @@
+h2.sec-headers.sub-list{
+	@include respond-to($c-vp){
+		@include leader(8);
+	}
+}
+
+ul.sub{
+		@include unordered;
+		@include respond-to($a-vp){
+			padding-left: 2%;
+		}
+		@include respond-to($c-vp){
+			padding-left: 0%;
+		}
+	}
+
+div.list{
+}
+
+.list-header :hover{
+	div.list{
+		opacity: 100;
+	}
+}

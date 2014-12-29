@@ -1,3 +1,6 @@
+/* ::general titleing */
+/* ------------------------------------------------------------ */
+
 h1.headers{
 	@include respond-to($a-vp){
 		@include padding-leader(4);
@@ -14,96 +17,148 @@ h2.sec-headers{
 	@include trailer(2);
 }
 
-h2.sec-headers.sub-list{
-	@include respond-to($c-vp){
-		@include leader(8);
-	}
-}
 
+/* ::page1 */
+/* ------------------------------------------------------------ */
 div.row-parent.page-1 {
+	@include respond-to($a-vp){
 	height: 98vh;
-	padding-top: 45vh;
+	width: 100%;
+	float: left;
+	clear: both;
+	padding-top: 40vh;
 	background-color: $white;
-	img{
+	text-align: center;
+	img.logo{
 		width: 100%;
 		height: auto;
 	}
+	img.arrow{
+		width: 15%;
+		height: auto;
+		@include leader(40);
+	}
+	}
 }
 
+p.top-arrow{
+	width: 100%;
+	text-align: center;
+	clear: both;
+	@include leader(10);
+	@include adjust-font-size-to(30px);
+}
+
+/* ::page2 */
+/* ------------------------------------------------------------ */
+
 div.row-parent.page-2 {
+	@include respond-to($a-vp){
 	height: auto;
+	width: 100%;
 	float: left;
 	background: $ONE-logo-blue;
 	color: $white;
 	@include padding-trailer(8);
+	}
+	@include respond-to($c-vp){
+	@include padding-leader(16);
+	@include padding-trailer(42);
+	}
 }
 
+/* ::Page3 */
+/* ------------------------------------------------------------ */
+
 div.row-parent.page-3 {
+	@include respond-to($a-vp){
 	height: auto;
 	float: left;
+	width: 100%;
 	background: $second-blue;
 	color: $white;
 	@include padding-trailer(8);
+	}
+	@include respond-to($c-vp){
+	@include padding-leader(16);
+	@include padding-trailer(42);
+	}
 }
 
+
+/* ::page4 */
+/* ------------------------------------------------------------ */
+
 div.row-parent.page-4 {
+	@include respond-to($a-vp){
 	height: auto;
 	float: left;
+	width: 100%;
 	background: $third-blue;
 	color: $white;
 	@include padding-trailer(8);
-
-}
-
-div.row-parent.page-5 {
-	height: auto;
-	float: left;
-	background: $white;
-	color: $mid-grey;
-}
-
-div.row-parent.page-6 {
-	height: auto;
-	float: left;
-	background: $ONE-logo-blue;
-	color: $white;
-}
-
-div.placeholder{
-	@include respond-to($a-vp){
-		display: none;
 	}
 	@include respond-to($c-vp){
-		visibility: hidden;
+	@include padding-leader(16);
+	@include padding-trailer(42);
 	}
 }
 
-ul#sub1{
-	@include unordered;
-	padding-left: 2%;
-}
+/* ::page5 */
+/* ------------------------------------------------------------ */
 
-ul.sub{
-	@include unordered;
-	padding-left: 2%;
-}
-
-header.sticky{
+div.row-parent.page-5 {
+	@include respond-to($a-vp){
+	height: auto;
+	float: left;
 	width: 100%;
-
-	div.sticky{
-	margin: 0 auto;
-	text-align: center;
+	background: $white;
+	color: $mid-grey;
+	div.logo-container{
+		@include leader(30);
+		text-align: center;
+		img.collab-logo{
+			width: 100px;
+			height: auto;
+			display: inline-block;
+			margin-left:20px;
+			margin-right:20px;
+		}
+	}
+	}
+	@include respond-to($c-vp){
+		@include padding-leader(32);
+		@include padding-trailer(50);
 	}
 }
 
-div.sticky-navigation
-{
-	margin: 0 auto;
+
+/* ::Page6 */
+/* ------------------------------------------------------------ */
+
+
+div.row-parent.page-6 {
+	@include respond-to($a-vp){
+	width: 100%;
+	height: auto;
+	float: left;
+	background: $mid-grey;
+	color: $white;
 	text-align: center;
+	@include padding-leader(6);
+	@include padding-trailer(8);
+	}
+	@include respond-to($c-vp){
+		@include padding-trailer(16);
+	}
+
 }
-div.sticky-navigation.stuck
-{
-	position: fixed;
-	top: 0;
+
+
+
+footer{
+	width: 100%;
+	text-align: center;
+	float: left;
+	@include leader(4);
 }

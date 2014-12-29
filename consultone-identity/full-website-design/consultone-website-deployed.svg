@@ -14,7 +14,7 @@
    id="svg3527"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="consultone-website.svg"
+   sodipodi:docname="consultone-website-deployed.svg"
    inkscape:export-filename="/home/colm/git/consultONE/consultone-identity/img-research-logo/logo-consultone.png"
    inkscape:export-xdpi="406.42502"
    inkscape:export-ydpi="406.42502">
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.34269626"
-     inkscape:cx="640.11762"
-     inkscape:cy="-501.94902"
+     inkscape:zoom="0.48464569"
+     inkscape:cx="-841.74462"
+     inkscape:cy="-503.72685"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -543,17 +543,13 @@
          y="1215.9692"
          style="font-size:22px;font-style:normal;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:'DINbek Light,'"
          id="tspan4178">managment, all the ways to communication design. </tspan></text>
-    <g
-       id="g4427"
-       transform="translate(0,-40)">
-      <rect
-         y="1371.3207"
-         x="1268.915"
-         height="644"
-         width="1366"
-         id="rect3102-0-5"
-         style="color:#000000;fill:#0277bd;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    </g>
+    <rect
+       style="color:#000000;fill:#0277bd;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3102-0-5"
+       width="1366"
+       height="644"
+       x="1268.915"
+       y="1331.3207" />
     <g
        id="g4534"
        transform="translate(-20,-33.013808)">
