@@ -31,3 +31,17 @@ ol 													{ @include nobullet; }
 li 													{ line-height: inherit; }
 strong, b 											{ font-weight: 700; }
 em, i, q 											{ font-style: italic; }
+
+h1.headers{
+	@include padding-leader(6);
+	@include trailer(2);
+}
+
+h2.sec-headers{
+	@include leader(2);
+	@include trailer(2);
+}
+
+h2.sec-headers.sub-list{
+	@include leader(8);
+}
