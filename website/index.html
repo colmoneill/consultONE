@@ -8,8 +8,8 @@
 	<meta name="viewport" content="initial-scale=1">
 	<title>consultONE</title>
 	<link href="assets/css/screen.css" rel="stylesheet" type="text/css" media="all"/>
-	<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
 	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
 </head>
 <body>
 
@@ -22,7 +22,13 @@
 			</section>
 		</div>
 	</div>
-
+<!--
+	<header class="sticky-navigation">
+		<div class="sticky-navigation">
+			<img src="assets/img/logo-consultone.svg" class="logo">
+		</div>
+	</header>
+-->
 	<div class="row-parent page-2">
 		<div class="row">
 			<section class="row__colspaced">
@@ -42,18 +48,20 @@
 			<section class="row__colspaced">
 				<div class="colspan12-10 push12-1 as-grid with-gutter">
 					<h1 class="headers">We accomplish your goals with a pragmatical no nonsense approach.</h1>
-				</div>
-				<div class="colspan12-4 push12-1 as-grid with-gutter">
-					<h2 class="sec-headers">consultONE brings many years of experience in leading and managing to the table. You can leverage this knowledge and experience in the most suitable way to fit your needs.</h2>
-				</div>
-				<div class="colspan12-4 push12-1 as-grid with-gutter placeholder">
 					<h2 class="sec-headers">consultONE brings many years of experience in leading and managing to the table. You can leverage this knowledge and experience in the most suitable way to fit your needs.</h2>
 				</div>
 				<div class="colspan12-4 push12-1 as-grid with-gutter ">
-					<a href="#" onclick="$('.sub1').hide();">
-					<h2 class="sec-headers sub-list">customer needs we can fulfill</h2>
-					</a>
-					<ul class="sub1">
+					<h2 class="sec-headers sub-list">typical consultONE missions &#8595;</h2>
+					<ul class="sub">
+						<li class="item1">Manage/direct large scale IT programs in multinational environments with significant process improvements and change management </li>
+						<li class="item2">Risk assessments / quality assessments on IT programs</li>
+						<li class="item3">Interim management for IT organisations (CIO or IT Director roles)</li>
+						<li class="item4">web communications and design web presence advisory web design, integration</li>
+					</ul>
+				</div>
+				<div class="colspan12-4 push12-1 as-grid with-gutter ">
+					<h2 class="sec-headers sub-list 1">customer needs we can fulfill &#8595;</h2>
+					<ul class="sub">
 						<li class="item1">program management &amp; leadership</li>
 						<li class="item2">IT organisation leadership</li>
 						<li class="item3">business case development</li>
@@ -61,15 +69,6 @@
 						<li class="item5">management of solution design &amp; implementation</li>
 						<li class="item6">digital communications strategy</li>
 						<li class="item7">advisory and implementation of Opensource solutions</li>
-					</ul>
-				</div>
-				<div class="colspan12-4 push12-1 as-grid with-gutter ">
-					<h2 class="sec-headers sub-list">typical consultONE missions</h2>
-					<ul class="sub">
-						<li class="item1">Manage/direct large scale IT programs in multinational environments with significant process improvements and change management </li>
-						<li class="item2">Risk assessments / quality assessments on IT programs</li>
-						<li class="item3">Interim management for IT organisations (CIO or IT Director roles)</li>
-						<li class="item4">web communications and design web presence advisory web design, integration</li>
 					</ul>
 				</div>
 			</section>
@@ -84,7 +83,7 @@
 					<h2 class="sec-headers">We focus on an agile delivery of results step by step while keeping an eye on big picture and long term goals. We aim to get the job done in the most efficient and cost effective way possible, respecting you timing, budget and scope constraints.</h2>
 				</div>
 				<div class="colspan12-4 push12-1 as-grid with-gutter">
-					<h2 class="sec-headers sub-list">domains where we have expertise</h2>
+					<h2 class="sec-headers sub-list">domains where we have expertise&nbsp;&#8595;</h2>
 					<ul class="sub">
 						<li class="item1">Procurement</li>
 						<li class="item2">Manufacturing</li>
@@ -95,7 +94,7 @@
 					</ul>
 				</div>
 				<div class="colspan12-4 push12-1 as-grid with-gutter">
-					<h2 class="sec-headers sub-list">solutions implemented in the past</h2>
+					<h2 class="sec-headers sub-list">solutions implemented in the past&nbsp;&#8595;</h2>
 					<ul class="sub">
 						<li class="item1">SAP (SD,MM, FI/CO, WM, APO, AA, BW)</li>
 						<li class="item2">Siebel (eChannel, CRM)</li>
@@ -129,6 +128,8 @@
 		</div>
 	</div>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="assets/js/waypoints.js"></script>
+<script src="assets/js/waypoints-sticky.js"></script>
+
 </body>
 </html>

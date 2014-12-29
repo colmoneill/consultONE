@@ -55,16 +55,7 @@ $action								: $white;
 $action-respond						: $mid-grey;
 
 
-// ------------------------------------------------------------
-// :: Typesizes/scale
-// ------------------------------------------------------------
-
-
-
-h1 { @include adjust-font-size-to(48px)};
-h2 { @include adjust-font-size-to(22px)};
 $paragraph: 16px;
-
 
 
 

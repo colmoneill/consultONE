@@ -1,7 +1,27 @@
-div.row-parent.page-1 {
+h1.headers{
+	@include respond-to($a-vp){
+		@include padding-leader(4);
+		@include trailer(2);
 
-	height: auto;
-	min-height: 95vh;
+	}
+	@include respond-to($c-vp){
+		@include padding-leader(6);
+	}
+}
+
+h2.sec-headers{
+	@include leader(2);
+	@include trailer(2);
+}
+
+h2.sec-headers.sub-list{
+	@include respond-to($c-vp){
+		@include leader(8);
+	}
+}
+
+div.row-parent.page-1 {
+	height: 98vh;
 	padding-top: 45vh;
 	background-color: $white;
 	img{
@@ -12,42 +32,78 @@ div.row-parent.page-1 {
 
 div.row-parent.page-2 {
 	height: auto;
-	min-height: 95vh;
+	float: left;
 	background: $ONE-logo-blue;
 	color: $white;
+	@include padding-trailer(8);
 }
 
 div.row-parent.page-3 {
 	height: auto;
-	min-height: 95vh;
+	float: left;
 	background: $second-blue;
 	color: $white;
-	clear: both;
+	@include padding-trailer(8);
 }
 
 div.row-parent.page-4 {
 	height: auto;
-	min-height: 95vh;
+	float: left;
 	background: $third-blue;
 	color: $white;
+	@include padding-trailer(8);
+
 }
 
 div.row-parent.page-5 {
-	min-height: 95vh;
+	height: auto;
+	float: left;
 	background: $white;
 	color: $mid-grey;
 }
 
 div.row-parent.page-6 {
-	min-height: 95vh;
+	height: auto;
+	float: left;
 	background: $ONE-logo-blue;
 	color: $white;
 }
 
 div.placeholder{
-	visibility: hidden;
+	@include respond-to($a-vp){
+		display: none;
+	}
+	@include respond-to($c-vp){
+		visibility: hidden;
+	}
+}
+
+ul#sub1{
+	@include unordered;
+	padding-left: 2%;
 }
 
 ul.sub{
 	@include unordered;
+	padding-left: 2%;
+}
+
+header.sticky{
+	width: 100%;
+
+	div.sticky{
+	margin: 0 auto;
+	text-align: center;
+	}
+}
+
+div.sticky-navigation
+{
+	margin: 0 auto;
+	text-align: center;
+}
+div.sticky-navigation.stuck
+{
+	position: fixed;
+	top: 0;
 }

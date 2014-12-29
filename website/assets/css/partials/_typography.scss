@@ -32,16 +32,29 @@ li 													{ line-height: inherit; }
 strong, b 											{ font-weight: 700; }
 em, i, q 											{ font-style: italic; }
 
-h1.headers{
-	@include padding-leader(6);
-	@include trailer(2);
+// ------------------------------------------------------------
+// :: Typesizes/scale
+// ------------------------------------------------------------
+
+
+
+h1 {
+	@include respond-to($a-vp){
+		@include adjust-font-size-to(32px);
+	}
+	@include respond-to($c-vp){
+		@include adjust-font-size-to(48px);
+	}
 }
 
-h2.sec-headers{
-	@include leader(2);
-	@include trailer(2);
+h2 {
+	@include respond-to($a-vp){
+		@include adjust-font-size-to(18px);
+	}
+	@include respond-to($c-vp){
+		@include adjust-font-size-to(22px);
+	}
 }
 
-h2.sec-headers.sub-list{
-	@include leader(8);
-}
+$paragraph: 16px;
+
