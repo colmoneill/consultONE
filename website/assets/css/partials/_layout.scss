@@ -38,8 +38,13 @@ div.row-parent.page-1 {
 		height: auto;
 		@include leader(40);
 	}
+	img.info{
+	width: 8px;
+	float: right;
 	}
 }
+}
+
 
 p.top-arrow{
 	width: 100%;
