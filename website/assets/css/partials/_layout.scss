@@ -22,7 +22,7 @@ h2.sec-headers{
 /* ------------------------------------------------------------ */
 div.row-parent.page-1 {
 	@include respond-to($a-vp){
-	height: 98vh;
+	height: 95vh;
 	width: 100%;
 	float: left;
 	clear: both;
@@ -38,11 +38,18 @@ div.row-parent.page-1 {
 		height: auto;
 		@include leader(40);
 	}
-	img.info{
-	width: 8px;
-	float: right;
-	}
 }
+}
+
+p.info-button{
+	position: absolute;
+	margin-left: 95%;
+	bottom: 6vh;
+	width: 8px;
+	margin-bottom: 8px;
+	img{
+		width: 8px;
+	}
 }
 
 
@@ -120,21 +127,31 @@ div.row-parent.page-5 {
 	background: $white;
 	color: $mid-grey;
 	div.logo-container{
-		@include leader(30);
+		@include leader(15);
+		@include trailer(15);
 		text-align: center;
 		img.collab-logo{
-			width: 100px;
+			width: 50%;
 			height: auto;
 			display: inline-block;
 			margin-left:20px;
 			margin-right:20px;
+			margin-bottom: 50px;
+			vertical-align: middle;
+					}
 		}
-	}
-	}
 	@include respond-to($c-vp){
-		@include padding-leader(32);
-		@include padding-trailer(50);
+		div.logo-container{
+		@include leader(30);
+		@include trailer(30);
+		img.collab-logo{
+			width: 120px;
+					}
+		}
+	@include padding-leader(32);
+	@include padding-trailer(50);
 	}
+}
 }
 
 
@@ -150,8 +167,11 @@ div.row-parent.page-6 {
 	background: $mid-grey;
 	color: $white;
 	text-align: center;
-	@include padding-leader(6);
+	@include padding-leader(12);
 	@include padding-trailer(8);
+	p{
+		margin: 0;
+	}
 	}
 	@include respond-to($c-vp){
 		@include padding-trailer(16);
