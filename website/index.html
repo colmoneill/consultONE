@@ -18,7 +18,7 @@
 			<section class="row__colspaced">
 				<div class="colspan12-4 push12-4 colspan8-4 push8-2 as-grid with-gutter">
 					<img src="assets/img/logo-consultone-alt.svg" class="logo">
-					<img src="assets/img/arrow-down.svg" class="arrow">
+					<a data-scroll href="#page-2"><img src="assets/img/arrow-down.svg" class="arrow"></a>
 				</div>
 			</section>
 		</div>
@@ -28,7 +28,7 @@
 		<div class="row">
 			<section class="row__colspaced">
 				<div class="colspan12-10 push12-1 as-grid with-gutter">
-					<h1 class="headers">Our mission is to provide high value adding consulting services to your organisation.</h1>
+					<h1 id="page-2" class="headers">Our mission is to provide high value adding consulting services to your organisation.</h1>
 				</div>
 				<div class="colspan12-4 push12-6 as-grid with-gutter">
 					<h2 class="sec-headers">Our focus is not only to provide the best solutions for your needs, but also to accompany you through the journey of solution design, change and adaption to get the maximum benefits from your new solutions. Efficiency, flexibility and scalability are primary concerns for consultONE.</h2>
@@ -162,8 +162,18 @@
 		</div>
 	</div>
 
-<script src="assets/js/waypoints.js"></script>
-<script src="assets/js/waypoints-sticky.js"></script>
+	<script src='assets/js/smooth-scroll.min.js'></script>
+	<script>
+		smoothScroll.init({
+			speed: 1000,
+			easing: 'easeInOutCubic',
+			offset: 0,
+			updateURL: true,
+			callbackBefore: function ( toggle, anchor ) {},
+			callbackAfter: function ( toggle, anchor ) {}
+		});
+	</script>
+
 
 </body>
 </html>
